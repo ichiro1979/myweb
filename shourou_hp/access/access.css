@@ -1,0 +1,16 @@
+#body01 {
+	height: auto;
+	width: 580px;
+}
+#body-contents p img{
+	height: 540px;
+	width: 522px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#contents-txt p {
+	height: auto;
+	width: 580px;
+	padding-top: 10px;
+	padding-left: 20px;
+}

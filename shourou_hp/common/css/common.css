@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+/*
+ブラウザ初期化
+------------------------------------------------*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border:0;
+	background-color:transparent;
+	font-size:100%;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+}
+/*
+BASE
+------------------------------------------------*/
+body {
+	background-image: url(../images/body_bg.gif);
+	color: #000;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-size: 14px;
+	width:auto;
+	
+}
+a:link {
+	text-decoration: none;
+	color: #acacac;
+}
+a:visited {
+	text-decoration: none;
+	color: #acacac;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFFBBB;
+}
+h3 {
+	font-size: 16px;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+/*
+HEADER
+------------------------------------------------*/
+#header-top {
+	height: 23px;
+	background-color: #30231b;
+}
+#header-top-inner {
+	height: 23px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header-top-inner h1 {
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFC;
+	width: 300px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 5px;
+}
+#header-top-inner ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 5px;
+	color: #FFC;
+	font-size: 11px;
+}
+#header-top-inner ul li {
+	float: left;
+	margin-right: 3px;
+}
+#header-top-inner ul li a {
+	color: #FFFBBB;
+	text-decoration: none;
+}
+#header-top-inner ul li a:hover {
+	color: #3FF;
+}
+.top-line {
+	background-color: #545b42;
+	height: 10px;
+	border: 0;
+}
+
+
+/*
+ヘッダ内タイトル
+------------------------------------------------*/
+#header-middle {
+	background-image: url(../images/title_bg.gif);
+	height: 72px;
+}
+#header-middle-inner {
+	height: 72px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header-middle-inner h2 {
+	float: left;
+	height: 72px;
+	width: 137px;
+}
+#tel {
+	float: right;
+	height: 72px;
+	width: 279px;
+	background-image: url(../images/tel.png);
+}
+#tel img {
+	margin-left: 45px;
+	margin-top: 5px;
+}
+
+/*
+NAVIGATION
+------------------------------------------------*/
+#gnavi {
+	height: 45px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+}
+#gnavi li {
+	float: left;
+	height: 45px;
+	width: 150px;
+}
+#gnavi li img {
+	display: block;
+}
+
+/*
+CONTENTS
+------------------------------------------------*/
+#main-pic {
+	height: 200px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contents {
+	background-color: #30231b;
+}
+#contents-inner {
+	background-color: #fdf9e4;
+	height: auto;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/right_column_bg.png);
+	background-repeat: repeat-y;
+}
+
+/*
+LEFT-COLUM
+------------------------------------------------*/
+#leftColumn {
+	float: left;
+	height: auto;
+	width: 320px;
+}
+#listMenu{
+	font-size: 14px;
+	height: 550px;
+	width: 190px;
+	padding-left: 50px;
+	list-style-type: none;
+	padding-top: 10px;
+	line-height: 1.8em;
+}
+#listMenu li a {
+	color: #333;
+}
+#listMenu li a:hover {
+	color: #F33;
+	font-weight: bold;
+	background-image: url(../images/menu_icon.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 15px;
+}
+.listSubmenu li  {
+	text-indent: 1.5em;
+	list-style-type: none;
+	font-size: 13px;
+}
+#listMenu li .listSubmenu li a:hover {
+	color: #090;
+}
+
+/*
+RIGHT-COLUM
+------------------------------------------------*/
+#rightColumn {
+	float: right;
+	height: auto;
+	width: 580px;
+	background-image: url(../images/top_background.png);
+	background-repeat: no-repeat;
+}
+#contents-logo img {
+	padding-top: 50px;
+	padding-left: 70px;
+}
+#entry {
+	margin-top: 20px;
+}
+.entryTitle h3 {
+	background-image: url(../images/room-midashi.gif);
+	background-repeat: repeat-y;
+	background-position: right center;
+	height: 26px;
+	width: 483px;
+	margin-left: 14px;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+.entryBody p img {
+	height: 323px;
+	width: 521px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 28px;
+}
+.entryTxt {
+	font-size: 13px;
+	line-height: 1.2em;
+	display: block;
+	width: 470px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-left: 68px;
+}
+.entryBody a {
+	font-size: 10px;
+	float: right;
+	padding-right: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.entryBody a:hover {
+	color: #F00;
+}
+
+#innerTitle {
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+	height: 30px;
+	background-image: url(../images/midashi_02.gif);
+	background-repeat: repeat-y;
+}
+#innerTitle h3 {
+	padding-top: 4px;
+	padding-left: 6px;
+}
+#innerBody {
+	background-image: url(../images/txt_bg.gif);
+	background-repeat: repeat-x;
+	height: 125px;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#innerBody p {
+	line-height: 1.1em;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#innerBtn {
+	height: 89px;
+	width: 287px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+}
+
+/*
+BOTTOM-COLUM
+------------------------------------------------*/
+#bottomClumn {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/bottom_background.png);
+	background-repeat: no-repeat;
+	height: auto;
+	background-position: left bottom;
+	padding-top: 75px;
+}
+#bottominner {
+	height: 89px;
+	width: 287px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+}
+#pageTop {
+	width: 900px;
+	height: 105px;
+}
+#pageTop p {
+	float: right;
+	height: 26px;
+	width: 96px;
+	margin-right: 15px;
+	padding-top: 79px;
+}
+
+/*
+FOOTER
+------------------------------------------------*/
+#footer-top-inner {
+	margin: auto;
+	width: 900px;
+}
+#footer-bottom-inner img {
+	float: left;
+	margin-top: 40px;
+}
+#footer-bottom-inner {
+	margin: auto;
+	width: 900px;
+}
+#footer-top-inner ul li {
+	float: left;
+	margin-right: 3px;
+}
+#footer-top-inner ul {
+	float: right;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+	font-size: 12px;
+	color: #acacac;
+}

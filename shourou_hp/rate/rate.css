@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#entry02 {
+	margin-top: 20px;
+	padding-left: 65px;
+}
+#entry-title02 p {
+	font-size: 12px;
+	line-height: 1.8em;
+	letter-spacing: 0.3em;
+	width: 410px;
+}
+#entry-body02 {
+	height: auto;
+	color: #666;
+}
